@@ -17,3 +17,12 @@ main {
   height: 100vh;
   background-color: #888;
 }
+
+#cardColor {
+  margin: 10px;
+  width: 50%;
+  height: 170px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: transparent;
+}
