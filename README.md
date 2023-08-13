@@ -15,7 +15,7 @@
 ## 💻 Tela do projeto
 
 <img src="https://github.com/matheusnsilvab/GeradorDeCores/assets/131299485/d37b097b-26c6-44de-beae-8848be2e0f1f" width="600px"/>
-<img src="https://github.com/matheusnsilvab/GeradorDeCores/assets/131299485/00f5d618-6ce0-4353-a3ea-64a5d2db21e2" width="210"/>
+<img src="https://github.com/matheusnsilvab/GeradorDeCores/assets/131299485/00f5d618-6ce0-4353-a3ea-64a5d2db21e2" width="210px"/>
 
 
 ##
