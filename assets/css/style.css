@@ -6,7 +6,9 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(205, 54, 54);
+  background-image: url(https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1129&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
@@ -15,24 +17,57 @@ main {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color: #888;
 }
 
 #cardColor {
   margin: 10px;
   width: 50%;
-  height: 170px;
-  border: 1px solid #000;
+  height: 300px;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   background-color: transparent;
 }
 
 #selection-colors {
-  padding: 7px 0px;
+  padding: 7px 15px;
   width: 50%;
+  height: 60px;
   border-radius: 5px;
   border: none;
   outline: none;
+  font-size: 30px;
   cursor: pointer;
   background-color: #fff;
+}
+
+@media screen and (max-width: 765px) {
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #cardColor {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: transparent;
+  }
+
+  #selection-colors {
+    margin: 5px;
+    padding: 7px 1px;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #fff;
+  }
 }
